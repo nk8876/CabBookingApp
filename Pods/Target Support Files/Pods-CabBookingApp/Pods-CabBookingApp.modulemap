@@ -1,0 +1,6 @@
+framework module Pods_CabBookingApp {
+  umbrella header "Pods-CabBookingApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3647995A2334B011001A7DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799592334B011001A7DB8 /* AppDelegate.swift */; };
+		3647995F2334B011001A7DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3647995D2334B011001A7DB8 /* Main.storyboard */; };
+		364799612334B013001A7DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364799602334B013001A7DB8 /* Assets.xcassets */; };
+		364799642334B013001A7DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364799622334B013001A7DB8 /* LaunchScreen.storyboard */; };
+		3647996F2334B014001A7DB8 /* CabBookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647996E2334B014001A7DB8 /* CabBookingAppTests.swift */; };
+		3647997A2334B014001A7DB8 /* CabBookingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799792334B014001A7DB8 /* CabBookingAppUITests.swift */; };
+		364799912334B231001A7DB8 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647998F2334B231001A7DB8 /* Extention.swift */; };
+		364799922334B231001A7DB8 /* ShareClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799902334B231001A7DB8 /* ShareClass.swift */; };
+		364799A72334B5AD001A7DB8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799932334B5AC001A7DB8 /* HistoryViewController.swift */; };
+		364799A82334B5AD001A7DB8 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799942334B5AC001A7DB8 /* PaymentVC.swift */; };
+		364799AA2334B5AD001A7DB8 /* UpcommingRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799962334B5AC001A7DB8 /* UpcommingRideVC.swift */; };
+		364799AB2334B5AD001A7DB8 /* UserProfileSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799972334B5AC001A7DB8 /* UserProfileSetting.swift */; };
+		364799AC2334B5AD001A7DB8 /* UpcommingRideDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799982334B5AC001A7DB8 /* UpcommingRideDetail.swift */; };
+		364799AD2334B5AD001A7DB8 /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799992334B5AC001A7DB8 /* UserDetailsVC.swift */; };
+		364799AE2334B5AD001A7DB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647999A2334B5AC001A7DB8 /* LoginViewController.swift */; };
+		364799AF2334B5AD001A7DB8 /* LoginSignUpOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647999B2334B5AC001A7DB8 /* LoginSignUpOptionVC.swift */; };
+		364799B02334B5AD001A7DB8 /* EnterOtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647999C2334B5AC001A7DB8 /* EnterOtpVC.swift */; };
+		364799B12334B5AD001A7DB8 /* PupUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647999D2334B5AC001A7DB8 /* PupUpView.swift */; };
+		364799B42334B5AD001A7DB8 /* RideRequestDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A02334B5AD001A7DB8 /* RideRequestDetailVC.swift */; };
+		364799B52334B5AD001A7DB8 /* UserDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A12334B5AD001A7DB8 /* UserDashboard.swift */; };
+		364799B62334B5AD001A7DB8 /* RidesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A22334B5AD001A7DB8 /* RidesDetailsViewController.swift */; };
+		364799B72334B5AD001A7DB8 /* AddPaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A32334B5AD001A7DB8 /* AddPaymentMethods.swift */; };
+		364799B82334B5AD001A7DB8 /* AddCardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A42334B5AD001A7DB8 /* AddCardDetails.swift */; };
+		364799B92334B5AD001A7DB8 /* CompletedRidesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A52334B5AD001A7DB8 /* CompletedRidesVC.swift */; };
+		364799BA2334B5AD001A7DB8 /* CancelRidesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799A62334B5AD001A7DB8 /* CancelRidesVC.swift */; };
+		364799BF2334BEAB001A7DB8 /* CardNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799BB2334BEAA001A7DB8 /* CardNumberCell.swift */; };
+		364799C02334BEAB001A7DB8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799BC2334BEAA001A7DB8 /* TableViewCell.swift */; };
+		364799C12334BEAB001A7DB8 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799BD2334BEAB001A7DB8 /* HistoryTableCellView.swift */; };
+		364799C22334BEAB001A7DB8 /* AddPaymentMethodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799BE2334BEAB001A7DB8 /* AddPaymentMethodsCell.swift */; };
+		364799C42334BECB001A7DB8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364799C32334BECA001A7DB8 /* CollectionViewCell.swift */; };
+		367A4710233F6E990014C6D5 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367A470F233F6E990014C6D5 /* Config.plist */; };
+		367A4712233F837F0014C6D5 /* StartVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A4711233F837F0014C6D5 /* StartVerificationViewController.swift */; };
+		367A4714233F839B0014C6D5 /* CheckVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A4713233F839B0014C6D5 /* CheckVerificationViewController.swift */; };
+		367A4716233F83AD0014C6D5 /* VerificationResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A4715233F83AD0014C6D5 /* VerificationResultViewController.swift */; };
+		367A4719233F83E80014C6D5 /* VerifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A4718233F83E80014C6D5 /* VerifyAPI.swift */; };
+		36827DCA234321850066E6BC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36827DC9234321850066E6BC /* LoginVC.swift */; };
+		36A2FB94233C78A400332236 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A2FB93233C78A400332236 /* MenuViewController.swift */; };
+		36A2FB96233C8A6B00332236 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A2FB95233C8A6B00332236 /* HelpViewController.swift */; };
+		36ABC5202345F12500BCABA7 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ABC51F2345F12500BCABA7 /* ShareViewController.swift */; };
+		36D050E2233E1438006E696C /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 36D050E1233E1437006E696C /* GoogleService-Info .plist */; };
+		36E8CA5E233A424C00AC1572 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CA5D233A424C00AC1572 /* HomeViewController.swift */; };
+		4B54B276D333953A51E3D5D5 /* Pods_CabBookingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC17B674B8437F91A096289E /* Pods_CabBookingApp.framework */; };
+		6BEB1C919F7259EB000F0066 /* Pods_CabBookingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AB7232061E918FCDC7EAFD /* Pods_CabBookingAppUITests.framework */; };
+		F386756366342BB4A62B2778 /* Pods_CabBookingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF7B84C7A872E47FA5ACC1B /* Pods_CabBookingAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3647996B2334B014001A7DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3647994E2334B011001A7DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364799552334B011001A7DB8;
+			remoteInfo = CabBookingApp;
+		};
+		364799762334B014001A7DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3647994E2334B011001A7DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364799552334B011001A7DB8;
+			remoteInfo = CabBookingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12AB7232061E918FCDC7EAFD /* Pods_CabBookingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabBookingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF7B84C7A872E47FA5ACC1B /* Pods_CabBookingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabBookingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28604D750FF2F9BA159A22BE /* Pods-CabBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabBookingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabBookingAppTests/Pods-CabBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		364799562334B011001A7DB8 /* CabBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364799592334B011001A7DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3647995E2334B011001A7DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364799602334B013001A7DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		364799632334B013001A7DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		364799652334B013001A7DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3647996A2334B014001A7DB8 /* CabBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3647996E2334B014001A7DB8 /* CabBookingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabBookingAppTests.swift; sourceTree = "<group>"; };
+		364799702334B014001A7DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364799752334B014001A7DB8 /* CabBookingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabBookingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364799792334B014001A7DB8 /* CabBookingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabBookingAppUITests.swift; sourceTree = "<group>"; };
+		3647997B2334B014001A7DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3647998F2334B231001A7DB8 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		364799902334B231001A7DB8 /* ShareClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareClass.swift; sourceTree = "<group>"; };
+		364799932334B5AC001A7DB8 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		364799942334B5AC001A7DB8 /* PaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		364799962334B5AC001A7DB8 /* UpcommingRideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcommingRideVC.swift; sourceTree = "<group>"; };
+		364799972334B5AC001A7DB8 /* UserProfileSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileSetting.swift; sourceTree = "<group>"; };
+		364799982334B5AC001A7DB8 /* UpcommingRideDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcommingRideDetail.swift; sourceTree = "<group>"; };
+		364799992334B5AC001A7DB8 /* UserDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
+		3647999A2334B5AC001A7DB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3647999B2334B5AC001A7DB8 /* LoginSignUpOptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignUpOptionVC.swift; sourceTree = "<group>"; };
+		3647999C2334B5AC001A7DB8 /* EnterOtpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterOtpVC.swift; sourceTree = "<group>"; };
+		3647999D2334B5AC001A7DB8 /* PupUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PupUpView.swift; sourceTree = "<group>"; };
+		364799A02334B5AD001A7DB8 /* RideRequestDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestDetailVC.swift; sourceTree = "<group>"; };
+		364799A12334B5AD001A7DB8 /* UserDashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDashboard.swift; sourceTree = "<group>"; };
+		364799A22334B5AD001A7DB8 /* RidesDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesDetailsViewController.swift; sourceTree = "<group>"; };
+		364799A32334B5AD001A7DB8 /* AddPaymentMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPaymentMethods.swift; sourceTree = "<group>"; };
+		364799A42334B5AD001A7DB8 /* AddCardDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardDetails.swift; sourceTree = "<group>"; };
+		364799A52334B5AD001A7DB8 /* CompletedRidesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedRidesVC.swift; sourceTree = "<group>"; };
+		364799A62334B5AD001A7DB8 /* CancelRidesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelRidesVC.swift; sourceTree = "<group>"; };
+		364799BB2334BEAA001A7DB8 /* CardNumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberCell.swift; sourceTree = "<group>"; };
+		364799BC2334BEAA001A7DB8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		364799BD2334BEAB001A7DB8 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
+		364799BE2334BEAB001A7DB8 /* AddPaymentMethodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodsCell.swift; sourceTree = "<group>"; };
+		364799C32334BECA001A7DB8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		367A470F233F6E990014C6D5 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		367A4711233F837F0014C6D5 /* StartVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVerificationViewController.swift; sourceTree = "<group>"; };
+		367A4713233F839B0014C6D5 /* CheckVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVerificationViewController.swift; sourceTree = "<group>"; };
+		367A4715233F83AD0014C6D5 /* VerificationResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationResultViewController.swift; sourceTree = "<group>"; };
+		367A4718233F83E80014C6D5 /* VerifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAPI.swift; sourceTree = "<group>"; };
+		36827DC9234321850066E6BC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		36A2FB93233C78A400332236 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		36A2FB95233C8A6B00332236 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		36ABC51F2345F12500BCABA7 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		36D050E1233E1437006E696C /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
+		36E8CA5D233A424C00AC1572 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		535EAA1FA635D04D8E273E9E /* Pods-CabBookingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabBookingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabBookingAppUITests/Pods-CabBookingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBC7D585192C1E5068D0DBBA /* Pods-CabBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabBookingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabBookingAppTests/Pods-CabBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC17B674B8437F91A096289E /* Pods_CabBookingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabBookingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D84FB9856742F1DE4480AB /* Pods-CabBookingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabBookingAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabBookingAppUITests/Pods-CabBookingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E50097DFAD81D6330E30FFF9 /* Pods-CabBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabBookingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabBookingApp/Pods-CabBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAC0BAE1E63EFBB3698BD44 /* Pods-CabBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabBookingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabBookingApp/Pods-CabBookingApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364799532334B011001A7DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B54B276D333953A51E3D5D5 /* Pods_CabBookingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364799672334B014001A7DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F386756366342BB4A62B2778 /* Pods_CabBookingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364799722334B014001A7DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEB1C919F7259EB000F0066 /* Pods_CabBookingAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCC8250C55A5FED82F80EB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC17B674B8437F91A096289E /* Pods_CabBookingApp.framework */,
+				1DF7B84C7A872E47FA5ACC1B /* Pods_CabBookingAppTests.framework */,
+				12AB7232061E918FCDC7EAFD /* Pods_CabBookingAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3647994D2334B011001A7DB8 = {
+			isa = PBXGroup;
+			children = (
+				364799582334B011001A7DB8 /* CabBookingApp */,
+				3647996D2334B014001A7DB8 /* CabBookingAppTests */,
+				364799782334B014001A7DB8 /* CabBookingAppUITests */,
+				364799572334B011001A7DB8 /* Products */,
+				77652C19B1C42DA745288963 /* Pods */,
+				0FCC8250C55A5FED82F80EB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		364799572334B011001A7DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364799562334B011001A7DB8 /* CabBookingApp.app */,
+				3647996A2334B014001A7DB8 /* CabBookingAppTests.xctest */,
+				364799752334B014001A7DB8 /* CabBookingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364799582334B011001A7DB8 /* CabBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				367A4717233F83C70014C6D5 /* Service */,
+				3647998B2334B185001A7DB8 /* Utils */,
+				3647998A2334B182001A7DB8 /* View */,
+				364799892334B180001A7DB8 /* Controller */,
+				364799882334B17D001A7DB8 /* Model */,
+				364799872334B178001A7DB8 /* Cells */,
+				367A470F233F6E990014C6D5 /* Config.plist */,
+				364799592334B011001A7DB8 /* AppDelegate.swift */,
+				36D050E1233E1437006E696C /* GoogleService-Info .plist */,
+				3647995D2334B011001A7DB8 /* Main.storyboard */,
+				364799602334B013001A7DB8 /* Assets.xcassets */,
+				364799622334B013001A7DB8 /* LaunchScreen.storyboard */,
+				364799652334B013001A7DB8 /* Info.plist */,
+			);
+			path = CabBookingApp;
+			sourceTree = "<group>";
+		};
+		3647996D2334B014001A7DB8 /* CabBookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3647996E2334B014001A7DB8 /* CabBookingAppTests.swift */,
+				364799702334B014001A7DB8 /* Info.plist */,
+			);
+			path = CabBookingAppTests;
+			sourceTree = "<group>";
+		};
+		364799782334B014001A7DB8 /* CabBookingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				364799792334B014001A7DB8 /* CabBookingAppUITests.swift */,
+				3647997B2334B014001A7DB8 /* Info.plist */,
+			);
+			path = CabBookingAppUITests;
+			sourceTree = "<group>";
+		};
+		364799872334B178001A7DB8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3647998E2334B196001A7DB8 /* TableViewCell */,
+				3647998D2334B194001A7DB8 /* CollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		364799882334B17D001A7DB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		364799892334B180001A7DB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				364799A42334B5AD001A7DB8 /* AddCardDetails.swift */,
+				364799A32334B5AD001A7DB8 /* AddPaymentMethods.swift */,
+				364799A62334B5AD001A7DB8 /* CancelRidesVC.swift */,
+				364799A52334B5AD001A7DB8 /* CompletedRidesVC.swift */,
+				3647999C2334B5AC001A7DB8 /* EnterOtpVC.swift */,
+				36A2FB93233C78A400332236 /* MenuViewController.swift */,
+				364799932334B5AC001A7DB8 /* HistoryViewController.swift */,
+				3647999B2334B5AC001A7DB8 /* LoginSignUpOptionVC.swift */,
+				3647999A2334B5AC001A7DB8 /* LoginViewController.swift */,
+				364799942334B5AC001A7DB8 /* PaymentVC.swift */,
+				364799982334B5AC001A7DB8 /* UpcommingRideDetail.swift */,
+				364799962334B5AC001A7DB8 /* UpcommingRideVC.swift */,
+				3647999D2334B5AC001A7DB8 /* PupUpView.swift */,
+				364799A02334B5AD001A7DB8 /* RideRequestDetailVC.swift */,
+				364799A22334B5AD001A7DB8 /* RidesDetailsViewController.swift */,
+				364799A12334B5AD001A7DB8 /* UserDashboard.swift */,
+				364799992334B5AC001A7DB8 /* UserDetailsVC.swift */,
+				364799972334B5AC001A7DB8 /* UserProfileSetting.swift */,
+				36E8CA5D233A424C00AC1572 /* HomeViewController.swift */,
+				36A2FB95233C8A6B00332236 /* HelpViewController.swift */,
+				367A4711233F837F0014C6D5 /* StartVerificationViewController.swift */,
+				367A4713233F839B0014C6D5 /* CheckVerificationViewController.swift */,
+				367A4715233F83AD0014C6D5 /* VerificationResultViewController.swift */,
+				36827DC9234321850066E6BC /* LoginVC.swift */,
+				36ABC51F2345F12500BCABA7 /* ShareViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3647998A2334B182001A7DB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3647998B2334B185001A7DB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3647998F2334B231001A7DB8 /* Extention.swift */,
+				364799902334B231001A7DB8 /* ShareClass.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3647998D2334B194001A7DB8 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				364799C32334BECA001A7DB8 /* CollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3647998E2334B196001A7DB8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				364799BE2334BEAB001A7DB8 /* AddPaymentMethodsCell.swift */,
+				364799BB2334BEAA001A7DB8 /* CardNumberCell.swift */,
+				364799BD2334BEAB001A7DB8 /* HistoryTableCellView.swift */,
+				364799BC2334BEAA001A7DB8 /* TableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		367A4717233F83C70014C6D5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				367A4718233F83E80014C6D5 /* VerifyAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		77652C19B1C42DA745288963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E50097DFAD81D6330E30FFF9 /* Pods-CabBookingApp.debug.xcconfig */,
+				EBAC0BAE1E63EFBB3698BD44 /* Pods-CabBookingApp.release.xcconfig */,
+				BBC7D585192C1E5068D0DBBA /* Pods-CabBookingAppTests.debug.xcconfig */,
+				28604D750FF2F9BA159A22BE /* Pods-CabBookingAppTests.release.xcconfig */,
+				D8D84FB9856742F1DE4480AB /* Pods-CabBookingAppUITests.debug.xcconfig */,
+				535EAA1FA635D04D8E273E9E /* Pods-CabBookingAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364799552334B011001A7DB8 /* CabBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3647997E2334B014001A7DB8 /* Build configuration list for PBXNativeTarget "CabBookingApp" */;
+			buildPhases = (
+				5A04807E8AAE854D984AABC4 /* [CP] Check Pods Manifest.lock */,
+				364799522334B011001A7DB8 /* Sources */,
+				364799532334B011001A7DB8 /* Frameworks */,
+				364799542334B011001A7DB8 /* Resources */,
+				0B560937CB10C4B23DD11BE9 /* [CP] Embed Pods Frameworks */,
+				4DD814BBF5B15D999E377BCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CabBookingApp;
+			productName = CabBookingApp;
+			productReference = 364799562334B011001A7DB8 /* CabBookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364799692334B014001A7DB8 /* CabBookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364799812334B014001A7DB8 /* Build configuration list for PBXNativeTarget "CabBookingAppTests" */;
+			buildPhases = (
+				A81C92A68BFEB296270FB47D /* [CP] Check Pods Manifest.lock */,
+				364799662334B014001A7DB8 /* Sources */,
+				364799672334B014001A7DB8 /* Frameworks */,
+				364799682334B014001A7DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3647996C2334B014001A7DB8 /* PBXTargetDependency */,
+			);
+			name = CabBookingAppTests;
+			productName = CabBookingAppTests;
+			productReference = 3647996A2334B014001A7DB8 /* CabBookingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		364799742334B014001A7DB8 /* CabBookingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364799842334B014001A7DB8 /* Build configuration list for PBXNativeTarget "CabBookingAppUITests" */;
+			buildPhases = (
+				CAD5EC38F5742976A08F1B9D /* [CP] Check Pods Manifest.lock */,
+				364799712334B014001A7DB8 /* Sources */,
+				364799722334B014001A7DB8 /* Frameworks */,
+				364799732334B014001A7DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364799772334B014001A7DB8 /* PBXTargetDependency */,
+			);
+			name = CabBookingAppUITests;
+			productName = CabBookingAppUITests;
+			productReference = 364799752334B014001A7DB8 /* CabBookingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3647994E2334B011001A7DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dheeraj Arora";
+				TargetAttributes = {
+					364799552334B011001A7DB8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					364799692334B014001A7DB8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 364799552334B011001A7DB8;
+					};
+					364799742334B014001A7DB8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 364799552334B011001A7DB8;
+					};
+				};
+			};
+			buildConfigurationList = 364799512334B011001A7DB8 /* Build configuration list for PBXProject "CabBookingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3647994D2334B011001A7DB8;
+			productRefGroup = 364799572334B011001A7DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364799552334B011001A7DB8 /* CabBookingApp */,
+				364799692334B014001A7DB8 /* CabBookingAppTests */,
+				364799742334B014001A7DB8 /* CabBookingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364799542334B011001A7DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364799642334B013001A7DB8 /* LaunchScreen.storyboard in Resources */,
+				364799612334B013001A7DB8 /* Assets.xcassets in Resources */,
+				3647995F2334B011001A7DB8 /* Main.storyboard in Resources */,
+				367A4710233F6E990014C6D5 /* Config.plist in Resources */,
+				36D050E2233E1438006E696C /* GoogleService-Info .plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364799682334B014001A7DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364799732334B014001A7DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B560937CB10C4B23DD11BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CabBookingApp/Pods-CabBookingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NavigationDrawer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabBookingApp/Pods-CabBookingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD814BBF5B15D999E377BCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CabBookingApp/Pods-CabBookingApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabBookingApp/Pods-CabBookingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A04807E8AAE854D984AABC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabBookingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81C92A68BFEB296270FB47D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabBookingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD5EC38F5742976A08F1B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabBookingAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364799522334B011001A7DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A2FB96233C8A6B00332236 /* HelpViewController.swift in Sources */,
+				364799B82334B5AD001A7DB8 /* AddCardDetails.swift in Sources */,
+				367A4716233F83AD0014C6D5 /* VerificationResultViewController.swift in Sources */,
+				364799C22334BEAB001A7DB8 /* AddPaymentMethodsCell.swift in Sources */,
+				364799AF2334B5AD001A7DB8 /* LoginSignUpOptionVC.swift in Sources */,
+				364799B02334B5AD001A7DB8 /* EnterOtpVC.swift in Sources */,
+				36A2FB94233C78A400332236 /* MenuViewController.swift in Sources */,
+				36E8CA5E233A424C00AC1572 /* HomeViewController.swift in Sources */,
+				364799AE2334B5AD001A7DB8 /* LoginViewController.swift in Sources */,
+				364799BA2334B5AD001A7DB8 /* CancelRidesVC.swift in Sources */,
+				364799AA2334B5AD001A7DB8 /* UpcommingRideVC.swift in Sources */,
+				36827DCA234321850066E6BC /* LoginVC.swift in Sources */,
+				364799922334B231001A7DB8 /* ShareClass.swift in Sources */,
+				364799B72334B5AD001A7DB8 /* AddPaymentMethods.swift in Sources */,
+				364799A82334B5AD001A7DB8 /* PaymentVC.swift in Sources */,
+				364799B42334B5AD001A7DB8 /* RideRequestDetailVC.swift in Sources */,
+				36ABC5202345F12500BCABA7 /* ShareViewController.swift in Sources */,
+				364799B12334B5AD001A7DB8 /* PupUpView.swift in Sources */,
+				364799B52334B5AD001A7DB8 /* UserDashboard.swift in Sources */,
+				364799C02334BEAB001A7DB8 /* TableViewCell.swift in Sources */,
+				364799B92334B5AD001A7DB8 /* CompletedRidesVC.swift in Sources */,
+				364799B62334B5AD001A7DB8 /* RidesDetailsViewController.swift in Sources */,
+				367A4714233F839B0014C6D5 /* CheckVerificationViewController.swift in Sources */,
+				364799C42334BECB001A7DB8 /* CollectionViewCell.swift in Sources */,
+				364799912334B231001A7DB8 /* Extention.swift in Sources */,
+				367A4719233F83E80014C6D5 /* VerifyAPI.swift in Sources */,
+				364799BF2334BEAB001A7DB8 /* CardNumberCell.swift in Sources */,
+				364799A72334B5AD001A7DB8 /* HistoryViewController.swift in Sources */,
+				3647995A2334B011001A7DB8 /* AppDelegate.swift in Sources */,
+				364799AB2334B5AD001A7DB8 /* UserProfileSetting.swift in Sources */,
+				367A4712233F837F0014C6D5 /* StartVerificationViewController.swift in Sources */,
+				364799AD2334B5AD001A7DB8 /* UserDetailsVC.swift in Sources */,
+				364799AC2334B5AD001A7DB8 /* UpcommingRideDetail.swift in Sources */,
+				364799C12334BEAB001A7DB8 /* HistoryTableCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364799662334B014001A7DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3647996F2334B014001A7DB8 /* CabBookingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364799712334B014001A7DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3647997A2334B014001A7DB8 /* CabBookingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3647996C2334B014001A7DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364799552334B011001A7DB8 /* CabBookingApp */;
+			targetProxy = 3647996B2334B014001A7DB8 /* PBXContainerItemProxy */;
+		};
+		364799772334B014001A7DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364799552334B011001A7DB8 /* CabBookingApp */;
+			targetProxy = 364799762334B014001A7DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3647995D2334B011001A7DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3647995E2334B011001A7DB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364799622334B013001A7DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364799632334B013001A7DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3647997C2334B014001A7DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3647997D2334B014001A7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3647997F2334B014001A7DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50097DFAD81D6330E30FFF9 /* Pods-CabBookingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KAF34TYV9;
+				INFOPLIST_FILE = CabBookingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monet.CabBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		364799802334B014001A7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBAC0BAE1E63EFBB3698BD44 /* Pods-CabBookingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KAF34TYV9;
+				INFOPLIST_FILE = CabBookingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monet.CabBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		364799822334B014001A7DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC7D585192C1E5068D0DBBA /* Pods-CabBookingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KAF34TYV9;
+				INFOPLIST_FILE = CabBookingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monet.CabBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CabBookingApp.app/CabBookingApp";
+			};
+			name = Debug;
+		};
+		364799832334B014001A7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28604D750FF2F9BA159A22BE /* Pods-CabBookingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KAF34TYV9;
+				INFOPLIST_FILE = CabBookingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monet.CabBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CabBookingApp.app/CabBookingApp";
+			};
+			name = Release;
+		};
+		364799852334B014001A7DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D84FB9856742F1DE4480AB /* Pods-CabBookingAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KAF34TYV9;
+				INFOPLIST_FILE = CabBookingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monet.CabBookingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabBookingApp;
+			};
+			name = Debug;
+		};
+		364799862334B014001A7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535EAA1FA635D04D8E273E9E /* Pods-CabBookingAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KAF34TYV9;
+				INFOPLIST_FILE = CabBookingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monet.CabBookingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabBookingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364799512334B011001A7DB8 /* Build configuration list for PBXProject "CabBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3647997C2334B014001A7DB8 /* Debug */,
+				3647997D2334B014001A7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3647997E2334B014001A7DB8 /* Build configuration list for PBXNativeTarget "CabBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3647997F2334B014001A7DB8 /* Debug */,
+				364799802334B014001A7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364799812334B014001A7DB8 /* Build configuration list for PBXNativeTarget "CabBookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364799822334B014001A7DB8 /* Debug */,
+				364799832334B014001A7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364799842334B014001A7DB8 /* Build configuration list for PBXNativeTarget "CabBookingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364799852334B014001A7DB8 /* Debug */,
+				364799862334B014001A7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3647994E2334B011001A7DB8 /* Project object */;
+}
